@@ -1,13 +1,13 @@
 ---
 title: "From Mechanical Engineering to Data Science: Solving Real-world Manufacturing Problems"
-author: "Yun Xhou"
+author: "Yun Zhou"
 date: "2025-01-18"
 categories: [experience sharing]
 ---
 
 As a mechanical engineer, I have been dedicated to solving the practical problems in research and production. However, discovering and exploring data science was like unlocking a new door to innovative solutions in manufacturing field. In this blog, I’ll share the challenges I met, the learning journey I passed, and three successful applications of data science in my work. I hope to inspire the other engineers like me, who may not have a background in data science but are full of passion to  uncover the potential of data science in their own areas.
 
-# Challenges: Where Do I Start?
+## Challenges: Where Do I Start?
 
 When I first decided to learn data science, I was completely lost. I had no programming basis, no knowledge of machine learning. Should I start with a famous book, or a video taught by a big name? Should I start with programming or probability theory? What about database? My brain was filled with a million questions.
 
@@ -15,13 +15,13 @@ Then I realized that my goal in learning data science was to solve real-world pr
 
 Instead of aimlessly skimming everything, the best way to start was to tackle the specific challenges in my field. This approach brought me both direction and motivation.
 
-# Finding Problems and Sparking Curiosity: The Start Point for Learning Data Science
+## Finding Problems and Sparking Curiosity: The Start Point for Learning Data Science
 
 While developing a porous titanium alloy for medical implants, I encountered a frustrating inefficiency. Every time we updated the recipe (like adjusting porosity), we had to spend hours on mechanical  testing to evaluate the material’s properties. Many of my afternoons were tied up with the tedious experiments. I often complained to my colleagues that I felt more like a technician than an engineer. I began to think: why not leverage the existing experimental data to build a predictive model for material’s mechanical property with the specific conditions?
 
 I was inspired by a case study on prediction vehicle emission by decision tree regression where the researchers predicted CO2 emissions with some vehicle features[1]. I was excited that both of the cases have multiple input features and output a continuous variable. At that time, I was confident that I could definitely solve this problem.
 
-# Taking Action: From Learning to Application
+## Taking Action: From Learning to Application
 
 My learning approach was really simple and straightforward: just focus on the current scope - how to build a decision tree model similar to the emission prediction case, but suited to my problem. With that mind, I followed a step-by-step process. First, I understood the basic principles of decision tree, including its strengths and weaknesses. Then, I explored the relevant code and key parameters should be tuned. Finally, I built my first model.
 
@@ -32,7 +32,7 @@ By some experimental validations, the accuracy of my model is higher than 90%. T
 
 This application of data science freed my colleagues and me from endless experiments, accelerated the research and development process, and saved the team a significant amount of experimental costs.
 
-# Data Science as a Mindset: Optimizing Tool Wear Prediction
+## Data Science as a Mindset: Optimizing Tool Wear Prediction
 
 While manufacturing a part for iPhone, we set the lifespan of cutting tools based on the previous experience. However, after analyzing the replaced tools, we found a wide variation in their wear levels. Some were already heavily worn and should have been replaced earlier, while some were still in good conditions and could have been used longer. Regular manual inspection was not a feasible solution because each manual inspection required stopping the machines, causing manufacturing process disruption. This made tool wear a tricky problem.
 
@@ -45,7 +45,7 @@ This challenge led us to consider a different way to handle tool wear issue. We 
 
 By optimizing the timing of replacements, we reduced the tool waste and improved the product quality. This system has cumulatively saved the company nearly $1 million in costs.
 
-# Data Science as a Methodology: Testing New Technologies
+## Data Science as a Methodology: Testing New Technologies
 
 In high-volume production, adopting new technologies often raises the questions: Will this new technology improve the process efficiency and product quality? Will it introduce any unexpected risk? In the past, a lot of decisions are made based on the subjective or empirical judgment. However, if the implementation of new technology fails, or the actual results do not meet expectations, it could lead to serious consequences. 
 
@@ -55,11 +55,11 @@ Our team initially hesitated to adopt advanced laser cutting technology due to t
 
 By applied A/B Testing, we not only minimized the risks by adopting new technologies but also demonstrated how data science could be a powerful tool for evidence based decision making in manufacturing.
 
-# Conclusion
+## Conclusion
 
 Data science has broadened my problem-solving methods. For engineers, I suggest to: start with a practical problem, study similar cases, and take action. Establishing a data science mindset and applying it as a methodology can help you tackle challenges and create more value in your work.
 
-# Reference
+## Reference
 
 [1] “CO2 Emission by Vehicles”, https://www.kaggle.com/datasets/debajyotipodder/co2-emission-by-vehicles 
 [2] The GUI developed by the author, http://yunz-env.eba-2yttwpyb.us-west-1.elasticbeanstalk.com/ 
