@@ -61,10 +61,10 @@ Data science has broadened my problem-solving methods. For engineers, I suggest 
 
 ## Reference
 
-[1] “CO2 Emission by Vehicles”, https://www.kaggle.com/datasets/debajyotipodder/co2-emission-by-vehicles 
-[2] The GUI developed by the author, http://yunz-env.eba-2yttwpyb.us-west-1.elasticbeanstalk.com/ 
-[3] “Identifying tool wear”, https://www.canadianmetalworking.com/canadianmetalworking/article/cuttingtools/identifying-tool-wear 
-[4] “Typical Tool Wear in Machining”, https://www.meetyoucarbide.com/tool-wear/ 
+[1] “CO2 Emission by Vehicles”, https://www.kaggle.com/datasets/debajyotipodder/co2-emission-by-vehicles     
+[2] The GUI developed by the author, http://yunz-env.eba-2yttwpyb.us-west-1.elasticbeanstalk.com/      
+[3] “Identifying tool wear”, https://www.canadianmetalworking.com/canadianmetalworking/article/cuttingtools/identifying-tool-wear      
+[4] “Typical Tool Wear in Machining”, https://www.meetyoucarbide.com/tool-wear/      
 
 ![](thumbnail.jpg)
 
