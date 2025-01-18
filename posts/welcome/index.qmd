@@ -1,11 +1,11 @@
 ---
-title: "From Mechanical Engineering to Data Science: Solving Real-world Manufacturing Problems"
+title: "From Mechanical Engineering to Data Science: Solving Real-World Manufacturing Problems"
 author: "Yun Zhou"
 date: "2025-01-18"
 categories: [experience sharing]
 ---
 
-As a mechanical engineer, I have been dedicated to solving the practical problems in research and production. However, discovering and exploring data science was like unlocking a new door to innovative solutions in manufacturing field. In this blog, I’ll share the challenges I met, the learning journey I passed, and three successful applications of data science in my work. I hope to inspire the other engineers like me, who may not have a background in data science but are full of passion to  uncover the potential of data science in their own areas.
+As a mechanical engineer, I have been dedicated to solving the practical problems in research and production. However, discovering and exploring data science was like unlocking a new door to innovative solutions in the manufacturing field. In this blog, I’ll share the challenges I met, the learning journey I passed, and three successful applications of data science in my work. I hope to inspire the other engineers like me, who may not have a background in data science but are full of passion to  uncover the potential of data science in their own areas.
 
 ## Challenges: Where Do I Start?
 
@@ -23,17 +23,17 @@ I was inspired by a case study on prediction vehicle emission by decision tree r
 
 ## Taking Action: From Learning to Application
 
-My learning approach was really simple and straightforward: just focus on the current scope - how to build a decision tree model similar to the emission prediction case, but suited to my problem. With that mind, I followed a step-by-step process. First, I understood the basic principles of decision tree, including its strengths and weaknesses. Then, I explored the relevant code and key parameters should be tuned. Finally, I built my first model.
+My learning approach was really simple and straightforward: just focus on the current scope - how to build a decision tree model similar to the emission prediction case, but suited to my problem. Keeping that in mind, I followed a step-by-step process. First, I understood the basic principles of decision tree, including its strengths and weaknesses. Then, I explored the relevant code and key parameters should be tuned. Finally, I built my first model.
 
 By some experimental validations, the accuracy of my model is higher than 90%. That thrilled me and my colleagues. We no longer had to spend countless hours on  the tedious mechanical experiments! To make the model accessible, I learned basic AWS deployment, enabling my colleagues to simply input the relevant conditions on a webpage and instantly receive predictions for the mechanical properties [2]. In addition, I used visualization tools to plot the property curves under varying conditions, allowing engineers to have deeper insights into the material’s performance.
 
-![Figure 1. The GUI of Model](gui.jpg)  
+![Figure 1. The GUI of Predictive Model](gui.jpg)  
 
 ![Figure 2. Material Property Curves under Varying Conditions](curves.jpg)  
 
 This application of data science freed my colleagues and me from endless experiments, accelerated the research and development process, and saved the team a significant amount of experimental costs.
 
-## Data Science as a Mindset: Optimizing Tool Wear Prediction
+## Data Science as a Mindset: Tool Wear Prediction
 
 While manufacturing a part for iPhone, we set the lifespan of cutting tools based on the previous experience. However, after analyzing the replaced tools, we found a wide variation in their wear levels. Some were already heavily worn and should have been replaced earlier, while some were still in good conditions and could have been used longer. Regular manual inspection was not a feasible solution because each manual inspection required stopping the machines, causing manufacturing process disruption. This made tool wear a tricky problem.
 

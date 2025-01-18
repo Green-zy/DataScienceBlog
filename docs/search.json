@@ -9,56 +9,56 @@
   {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
-    "title": "From Mechanical Engineering to Data Science: Solving Real-world Manufacturing Problems",
+    "title": "From Mechanical Engineering to Data Science: Solving Real-World Manufacturing Problems",
     "section": "",
-    "text": "As a mechanical engineer, I have been dedicated to solving the practical problems in research and production. However, discovering and exploring data science was like unlocking a new door to innovative solutions in manufacturing field. In this blog, I’ll share the challenges I met, the learning journey I passed, and three successful applications of data science in my work. I hope to inspire the other engineers like me, who may not have a background in data science but are full of passion to uncover the potential of data science in their own areas."
+    "text": "As a mechanical engineer, I have been dedicated to solving the practical problems in research and production. However, discovering and exploring data science was like unlocking a new door to innovative solutions in the manufacturing field. In this blog, I’ll share the challenges I met, the learning journey I passed, and three successful applications of data science in my work. I hope to inspire the other engineers like me, who may not have a background in data science but are full of passion to uncover the potential of data science in their own areas."
   },
   {
     "objectID": "posts/welcome/index.html#challenges-where-do-i-start",
     "href": "posts/welcome/index.html#challenges-where-do-i-start",
-    "title": "From Mechanical Engineering to Data Science: Solving Real-world Manufacturing Problems",
+    "title": "From Mechanical Engineering to Data Science: Solving Real-World Manufacturing Problems",
     "section": "Challenges: Where Do I Start?",
     "text": "Challenges: Where Do I Start?\nWhen I first decided to learn data science, I was completely lost. I had no programming basis, no knowledge of machine learning. Should I start with a famous book, or a video taught by a big name? Should I start with programming or probability theory? What about database? My brain was filled with a million questions.\nThen I realized that my goal in learning data science was to solve real-world problems. Why not start with practical problems?\nInstead of aimlessly skimming everything, the best way to start was to tackle the specific challenges in my field. This approach brought me both direction and motivation."
   },
   {
     "objectID": "posts/welcome/index.html#finding-problems-and-sparking-curiosity-the-start-point-for-learning-data-science",
     "href": "posts/welcome/index.html#finding-problems-and-sparking-curiosity-the-start-point-for-learning-data-science",
-    "title": "From Mechanical Engineering to Data Science: Solving Real-world Manufacturing Problems",
+    "title": "From Mechanical Engineering to Data Science: Solving Real-World Manufacturing Problems",
     "section": "Finding Problems and Sparking Curiosity: The Start Point for Learning Data Science",
     "text": "Finding Problems and Sparking Curiosity: The Start Point for Learning Data Science\nWhile developing a porous titanium alloy for medical implants, I encountered a frustrating inefficiency. Every time we updated the recipe (like adjusting porosity), we had to spend hours on mechanical testing to evaluate the material’s properties. Many of my afternoons were tied up with the tedious experiments. I often complained to my colleagues that I felt more like a technician than an engineer. I began to think: why not leverage the existing experimental data to build a predictive model for material’s mechanical property with the specific conditions?\nI was inspired by a case study on prediction vehicle emission by decision tree regression where the researchers predicted CO2 emissions with some vehicle features[1]. I was excited that both of the cases have multiple input features and output a continuous variable. At that time, I was confident that I could definitely solve this problem."
   },
   {
     "objectID": "posts/welcome/index.html#taking-action-from-learning-to-application",
     "href": "posts/welcome/index.html#taking-action-from-learning-to-application",
-    "title": "From Mechanical Engineering to Data Science: Solving Real-world Manufacturing Problems",
+    "title": "From Mechanical Engineering to Data Science: Solving Real-World Manufacturing Problems",
     "section": "Taking Action: From Learning to Application",
-    "text": "Taking Action: From Learning to Application\nMy learning approach was really simple and straightforward: just focus on the current scope - how to build a decision tree model similar to the emission prediction case, but suited to my problem. With that mind, I followed a step-by-step process. First, I understood the basic principles of decision tree, including its strengths and weaknesses. Then, I explored the relevant code and key parameters should be tuned. Finally, I built my first model.\nBy some experimental validations, the accuracy of my model is higher than 90%. That thrilled me and my colleagues. We no longer had to spend countless hours on the tedious mechanical experiments! To make the model accessible, I learned basic AWS deployment, enabling my colleagues to simply input the relevant conditions on a webpage and instantly receive predictions for the mechanical properties [2]. In addition, I used visualization tools to plot the property curves under varying conditions, allowing engineers to have deeper insights into the material’s performance.\n\n\n\nFigure 1. The GUI of Model\n\n\n\n\n\nFigure 2. Material Property Curves under Varying Conditions\n\n\nThis application of data science freed my colleagues and me from endless experiments, accelerated the research and development process, and saved the team a significant amount of experimental costs."
+    "text": "Taking Action: From Learning to Application\nMy learning approach was really simple and straightforward: just focus on the current scope - how to build a decision tree model similar to the emission prediction case, but suited to my problem. Keeping that in mind, I followed a step-by-step process. First, I understood the basic principles of decision tree, including its strengths and weaknesses. Then, I explored the relevant code and key parameters should be tuned. Finally, I built my first model.\nBy some experimental validations, the accuracy of my model is higher than 90%. That thrilled me and my colleagues. We no longer had to spend countless hours on the tedious mechanical experiments! To make the model accessible, I learned basic AWS deployment, enabling my colleagues to simply input the relevant conditions on a webpage and instantly receive predictions for the mechanical properties [2]. In addition, I used visualization tools to plot the property curves under varying conditions, allowing engineers to have deeper insights into the material’s performance.\n\n\n\nFigure 1. The GUI of Predictive Model\n\n\n\n\n\nFigure 2. Material Property Curves under Varying Conditions\n\n\nThis application of data science freed my colleagues and me from endless experiments, accelerated the research and development process, and saved the team a significant amount of experimental costs."
   },
   {
-    "objectID": "posts/welcome/index.html#data-science-as-a-mindset-optimizing-tool-wear-prediction",
-    "href": "posts/welcome/index.html#data-science-as-a-mindset-optimizing-tool-wear-prediction",
-    "title": "From Mechanical Engineering to Data Science: Solving Real-world Manufacturing Problems",
-    "section": "Data Science as a Mindset: Optimizing Tool Wear Prediction",
-    "text": "Data Science as a Mindset: Optimizing Tool Wear Prediction\nWhile manufacturing a part for iPhone, we set the lifespan of cutting tools based on the previous experience. However, after analyzing the replaced tools, we found a wide variation in their wear levels. Some were already heavily worn and should have been replaced earlier, while some were still in good conditions and could have been used longer. Regular manual inspection was not a feasible solution because each manual inspection required stopping the machines, causing manufacturing process disruption. This made tool wear a tricky problem.\n\n\n\nFigure 3. The Tool for Machining (Figure Cited)[3]\n\n\n\n\n\nFigure 4. Tool Wear (Figure Cited)[4]\n\n\nThis challenge led us to consider a different way to handle tool wear issue. We adopted a data-driven mindset. We explored whether the data from the manufacturing process itself could reveal some trends for the tool wear levels. After some analysis, we found some correlation between the data from tool torque sensors and dimensional accuracies of the parts. Therefore, we developed a machine learning system that accurately predicted tool wear and dynamically adjusted the replacement schedules.\n\n\n\nFigure 5. Tool Wear Prediction System Workflow\n\n\nBy optimizing the timing of replacements, we reduced the tool waste and improved the product quality. This system has cumulatively saved the company nearly $1 million in costs."
+    "objectID": "posts/welcome/index.html#data-science-as-a-mindset-tool-wear-prediction",
+    "href": "posts/welcome/index.html#data-science-as-a-mindset-tool-wear-prediction",
+    "title": "From Mechanical Engineering to Data Science: Solving Real-World Manufacturing Problems",
+    "section": "Data Science as a Mindset: Tool Wear Prediction",
+    "text": "Data Science as a Mindset: Tool Wear Prediction\nWhile manufacturing a part for iPhone, we set the lifespan of cutting tools based on the previous experience. However, after analyzing the replaced tools, we found a wide variation in their wear levels. Some were already heavily worn and should have been replaced earlier, while some were still in good conditions and could have been used longer. Regular manual inspection was not a feasible solution because each manual inspection required stopping the machines, causing manufacturing process disruption. This made tool wear a tricky problem.\n\n\n\nFigure 3. The Tool for Machining (Figure Cited)[3]\n\n\n\n\n\nFigure 4. Tool Wear (Figure Cited)[4]\n\n\nThis challenge led us to consider a different way to handle tool wear issue. We adopted a data-driven mindset. We explored whether the data from the manufacturing process itself could reveal some trends for the tool wear levels. After some analysis, we found some correlation between the data from tool torque sensors and dimensional accuracies of the parts. Therefore, we developed a machine learning system that accurately predicted tool wear and dynamically adjusted the replacement schedules.\n\n\n\nFigure 5. Tool Wear Prediction System Workflow\n\n\nBy optimizing the timing of replacements, we reduced the tool waste and improved the product quality. This system has cumulatively saved the company nearly $1 million in costs."
   },
   {
     "objectID": "posts/welcome/index.html#data-science-as-a-methodology-testing-new-technologies",
     "href": "posts/welcome/index.html#data-science-as-a-methodology-testing-new-technologies",
-    "title": "From Mechanical Engineering to Data Science: Solving Real-world Manufacturing Problems",
+    "title": "From Mechanical Engineering to Data Science: Solving Real-World Manufacturing Problems",
     "section": "Data Science as a Methodology: Testing New Technologies",
     "text": "Data Science as a Methodology: Testing New Technologies\nIn high-volume production, adopting new technologies often raises the questions: Will this new technology improve the process efficiency and product quality? Will it introduce any unexpected risk? In the past, a lot of decisions are made based on the subjective or empirical judgment. However, if the implementation of new technology fails, or the actual results do not meet expectations, it could lead to serious consequences.\nOur team initially hesitated to adopt advanced laser cutting technology due to the lack of long term validation. To address this concern, we applied A/B Testing as a systematic evaluation process. We conducted a controlled experiment to compare traditional machining and advanced laser cutting. We measured manufacturing efficiency and dimensional accuracy as key metrics, and then applied statistical methods to make the results trustworthy. We found the laser cutting increased manufacturing efficiency by ~25% and had no negative impact on dimensional accuracy. That made us confident to gradually transit to advanced laser cutting from traditional machining, avoiding the risk from decisions on insufficient evidence.\n\n\n\nFigure 6. A/B Testing Workflow\n\n\nBy applied A/B Testing, we not only minimized the risks by adopting new technologies but also demonstrated how data science could be a powerful tool for evidence based decision making in manufacturing."
   },
   {
     "objectID": "posts/welcome/index.html#conclusion",
     "href": "posts/welcome/index.html#conclusion",
-    "title": "From Mechanical Engineering to Data Science: Solving Real-world Manufacturing Problems",
+    "title": "From Mechanical Engineering to Data Science: Solving Real-World Manufacturing Problems",
     "section": "Conclusion",
     "text": "Conclusion\nData science has broadened my problem-solving methods. For engineers, I suggest to: start with a practical problem, study similar cases, and take action. Establishing a data science mindset and applying it as a methodology can help you tackle challenges and create more value in your work."
   },
   {
     "objectID": "posts/welcome/index.html#reference",
     "href": "posts/welcome/index.html#reference",
-    "title": "From Mechanical Engineering to Data Science: Solving Real-world Manufacturing Problems",
+    "title": "From Mechanical Engineering to Data Science: Solving Real-World Manufacturing Problems",
     "section": "Reference",
     "text": "Reference\n[1] “CO2 Emission by Vehicles”, https://www.kaggle.com/datasets/debajyotipodder/co2-emission-by-vehicles\n[2] The GUI developed by the author, http://yunz-env.eba-2yttwpyb.us-west-1.elasticbeanstalk.com/\n[3] “Identifying tool wear”, https://www.canadianmetalworking.com/canadianmetalworking/article/cuttingtools/identifying-tool-wear\n[4] “Typical Tool Wear in Machining”, https://www.meetyoucarbide.com/tool-wear/"
   },
@@ -74,6 +74,6 @@
     "href": "index.html",
     "title": "DataScienceBlog",
     "section": "",
-    "text": "From Mechanical Engineering to Data Science: Solving Real-world Manufacturing Problems\n\n\n\n\n\n\nexperience sharing\n\n\n\n\n\n\n\n\n\nJan 18, 2025\n\n\nYun Zhou\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\nexperience sharing\n\n\n\n\n\n\n\n\n\nJan 17, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\nNo matching items"
+    "text": "From Mechanical Engineering to Data Science: Solving Real-World Manufacturing Problems\n\n\n\n\n\n\nexperience sharing\n\n\n\n\n\n\n\n\n\nJan 18, 2025\n\n\nYun Zhou\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\nexperience sharing\n\n\n\n\n\n\n\n\n\nJan 17, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\nNo matching items"
   }
 ]
