@@ -170,22 +170,54 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="taking-action-from-learning-to-application">Taking Action: From Learning to Application</h2>
 <p>My learning approach was really simple and straightforward: just focus on the current scope - how to build a decision tree model similar to the emission prediction case, but suited to my problem. With that mind, I followed a step-by-step process. First, I understood the basic principles of decision tree, including its strengths and weaknesses. Then, I explored the relevant code and key parameters should be tuned. Finally, I built my first model.</p>
 <p>By some experimental validations, the accuracy of my model is higher than 90%. That thrilled me and my colleagues. We no longer had to spend countless hours on the tedious mechanical experiments! To make the model accessible, I learned basic AWS deployment, enabling my colleagues to simply input the relevant conditions on a webpage and instantly receive predictions for the mechanical properties [2]. In addition, I used visualization tools to plot the property curves under varying conditions, allowing engineers to have deeper insights into the material’s performance.</p>
-<p>[Figure 1. The GUI of Model] [Figure 2. Material Property Curves under Varying Conditions]</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="gui.jpg" class="img-fluid figure-img"></p>
+<figcaption>Figure 1. The GUI of Model</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="curves.jpg" class="img-fluid figure-img"></p>
+<figcaption>Figure 2. Material Property Curves under Varying Conditions</figcaption>
+</figure>
+</div>
 <p>This application of data science freed my colleagues and me from endless experiments, accelerated the research and development process, and saved the team a significant amount of experimental costs.</p>
 </section>
 <section id="data-science-as-a-mindset-optimizing-tool-wear-prediction" class="level2">
 <h2 class="anchored" data-anchor-id="data-science-as-a-mindset-optimizing-tool-wear-prediction">Data Science as a Mindset: Optimizing Tool Wear Prediction</h2>
 <p>While manufacturing a part for iPhone, we set the lifespan of cutting tools based on the previous experience. However, after analyzing the replaced tools, we found a wide variation in their wear levels. Some were already heavily worn and should have been replaced earlier, while some were still in good conditions and could have been used longer. Regular manual inspection was not a feasible solution because each manual inspection required stopping the machines, causing manufacturing process disruption. This made tool wear a tricky problem.</p>
-<p>[Figure 3. The Tool for Machining (Figure Cited)[3]] [Figure 4. Tool Wear (Figure Cited)[4]]</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="tool.jpg" class="img-fluid figure-img"></p>
+<figcaption>Figure 3. The Tool for Machining (Figure Cited)[3]</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="wear.jpg" class="img-fluid figure-img"></p>
+<figcaption>Figure 4. Tool Wear (Figure Cited)[4]</figcaption>
+</figure>
+</div>
 <p>This challenge led us to consider a different way to handle tool wear issue. We adopted a data-driven mindset. We explored whether the data from the manufacturing process itself could reveal some trends for the tool wear levels. After some analysis, we found some correlation between the data from tool torque sensors and dimensional accuracies of the parts. Therefore, we developed a machine learning system that accurately predicted tool wear and dynamically adjusted the replacement schedules.</p>
-<p>[Figure 5. Tool Wear Prediction System Workflow]</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="wearworkflow.jpg" class="img-fluid figure-img"></p>
+<figcaption>Figure 5. Tool Wear Prediction System Workflow</figcaption>
+</figure>
+</div>
 <p>By optimizing the timing of replacements, we reduced the tool waste and improved the product quality. This system has cumulatively saved the company nearly $1 million in costs.</p>
 </section>
 <section id="data-science-as-a-methodology-testing-new-technologies" class="level2">
 <h2 class="anchored" data-anchor-id="data-science-as-a-methodology-testing-new-technologies">Data Science as a Methodology: Testing New Technologies</h2>
 <p>In high-volume production, adopting new technologies often raises the questions: Will this new technology improve the process efficiency and product quality? Will it introduce any unexpected risk? In the past, a lot of decisions are made based on the subjective or empirical judgment. However, if the implementation of new technology fails, or the actual results do not meet expectations, it could lead to serious consequences.</p>
 <p>Our team initially hesitated to adopt advanced laser cutting technology due to the lack of long term validation. To address this concern, we applied A/B Testing as a systematic evaluation process. We conducted a controlled experiment to compare traditional machining and advanced laser cutting. We measured manufacturing efficiency and dimensional accuracy as key metrics, and then applied statistical methods to make the results trustworthy. We found the laser cutting increased manufacturing efficiency by ~25% and had no negative impact on dimensional accuracy. That made us confident to gradually transit to advanced laser cutting from traditional machining, avoiding the risk from decisions on insufficient evidence.</p>
-<p>[Figure 6. A/B Testing Workflow]</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="abworkflow.jpg" class="img-fluid figure-img"></p>
+<figcaption>Figure 6. A/B Testing Workflow</figcaption>
+</figure>
+</div>
 <p>By applied A/B Testing, we not only minimized the risks by adopting new technologies but also demonstrated how data science could be a powerful tool for evidence based decision making in manufacturing.</p>
 </section>
 <section id="conclusion" class="level2">
@@ -198,7 +230,6 @@ ul.task-list li input[type="checkbox"] {
 [2] The GUI developed by the author, http://yunz-env.eba-2yttwpyb.us-west-1.elasticbeanstalk.com/<br>
 [3] “Identifying tool wear”, https://www.canadianmetalworking.com/canadianmetalworking/article/cuttingtools/identifying-tool-wear<br>
 [4] “Typical Tool Wear in Machining”, https://www.meetyoucarbide.com/tool-wear/</p>
-<p><img src="thumbnail.jpg" class="img-fluid"></p>
 
 
 </section>

@@ -27,8 +27,9 @@ My learning approach was really simple and straightforward: just focus on the cu
 
 By some experimental validations, the accuracy of my model is higher than 90%. That thrilled me and my colleagues. We no longer had to spend countless hours on  the tedious mechanical experiments! To make the model accessible, I learned basic AWS deployment, enabling my colleagues to simply input the relevant conditions on a webpage and instantly receive predictions for the mechanical properties [2]. In addition, I used visualization tools to plot the property curves under varying conditions, allowing engineers to have deeper insights into the material’s performance.
 
-[Figure 1. The GUI of Model]
-[Figure 2. Material Property Curves under Varying Conditions]
+![Figure 1. The GUI of Model](gui.jpg)  
+
+![Figure 2. Material Property Curves under Varying Conditions](curves.jpg)  
 
 This application of data science freed my colleagues and me from endless experiments, accelerated the research and development process, and saved the team a significant amount of experimental costs.
 
@@ -36,12 +37,13 @@ This application of data science freed my colleagues and me from endless experim
 
 While manufacturing a part for iPhone, we set the lifespan of cutting tools based on the previous experience. However, after analyzing the replaced tools, we found a wide variation in their wear levels. Some were already heavily worn and should have been replaced earlier, while some were still in good conditions and could have been used longer. Regular manual inspection was not a feasible solution because each manual inspection required stopping the machines, causing manufacturing process disruption. This made tool wear a tricky problem.
 
-[Figure 3. The Tool for Machining (Figure Cited)[3]]
-[Figure 4. Tool Wear (Figure Cited)[4]]
+![Figure 3. The Tool for Machining (Figure Cited)[3]](tool.jpg) 
+
+![Figure 4. Tool Wear (Figure Cited)[4]](wear.jpg) 
 
 This challenge led us to consider a different way to handle tool wear issue. We adopted a data-driven mindset. We explored whether the data from the manufacturing process itself could reveal some trends for the tool wear levels. After some analysis, we found some correlation between the data from tool torque sensors and dimensional accuracies of the parts. Therefore, we developed a machine learning system that accurately predicted tool wear and dynamically adjusted the replacement schedules. 
 
-[Figure 5. Tool Wear Prediction System Workflow]
+![Figure 5. Tool Wear Prediction System Workflow](wearworkflow.jpg) 
 
 By optimizing the timing of replacements, we reduced the tool waste and improved the product quality. This system has cumulatively saved the company nearly $1 million in costs.
 
@@ -51,7 +53,7 @@ In high-volume production, adopting new technologies often raises the questions:
 
 Our team initially hesitated to adopt advanced laser cutting technology due to the lack of long term validation. To address this concern, we applied A/B Testing as a systematic evaluation process. We conducted a controlled experiment to compare traditional machining and advanced laser cutting. We measured manufacturing efficiency and dimensional accuracy as key metrics, and then applied statistical methods to make the results trustworthy. We found the laser cutting increased manufacturing efficiency by ~25% and had no negative impact on dimensional accuracy. That made us confident to gradually transit to advanced laser cutting from traditional machining, avoiding the risk from decisions on insufficient evidence. 
 
-[Figure 6. A/B Testing Workflow]
+![Figure 6. A/B Testing Workflow](abworkflow.jpg) 
 
 By applied A/B Testing, we not only minimized the risks by adopting new technologies but also demonstrated how data science could be a powerful tool for evidence based decision making in manufacturing.
 
@@ -66,7 +68,7 @@ Data science has broadened my problem-solving methods. For engineers, I suggest 
 [3] “Identifying tool wear”, https://www.canadianmetalworking.com/canadianmetalworking/article/cuttingtools/identifying-tool-wear      
 [4] “Typical Tool Wear in Machining”, https://www.meetyoucarbide.com/tool-wear/      
 
-![](thumbnail.jpg)
+
 
 
 
